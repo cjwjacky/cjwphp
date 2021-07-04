@@ -1,0 +1,21 @@
+{
+    "name": "cjwjacky/cjwphp",
+    "description": "cjwphp",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "caijianwen",
+            "email": "caijianwen@caijianwen.com"
+        }
+    ],
+    "require": {
+        "php":">=5.6" 
+    },
+    "autoload":{
+        "psr-4":{ 
+            "cjwphp\\Library":"src/Library" 
+        }
+    },
+    "minimum-stability": "dev"
+}
